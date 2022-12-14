@@ -75,3 +75,23 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .column:first-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .column:nth-child(3n) {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+  }
+
+  .column {
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
