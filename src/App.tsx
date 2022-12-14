@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="app" role="main">
-            {columns.map(column => <ColumnComponent column={column}/>
+            {columns.map(column => <ColumnComponent column={column} key={column.heading}/>
             )}
         </div>
     )

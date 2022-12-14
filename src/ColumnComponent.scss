@@ -1,8 +1,11 @@
 .column {
   background-color: white;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
 
   h1 {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     text-transform: uppercase;
     color: var(--heading-color);
   }
@@ -12,5 +15,63 @@
     font-size: var(--paragraphs-size);
     color: var(--paragraphs-color);
     font-weight: 400;
+    margin-bottom: 3rem;
+  }
+
+  button {
+    background-color: var(--page-bg);
+    border: 2px solid transparent;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    margin-top: auto;
+    align-self: baseline;
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--page-bg);
+      color: var(--page-bg);
+    }
+  }
+}
+
+.column {
+  background-color: var(--first-card-bg);
+  padding: 3rem;
+
+  button {
+    color: var(--first-card-bg);
+  }
+}
+
+.column:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.column:nth-child(2n) {
+  background-color: var(--second-card-bg);
+
+  button {
+    color: var(--second-card-bg);
+
+    &:hover {
+      color: var(--page-bg)
+    }
+  }
+}
+
+.column:nth-child(3n) {
+  background-color: var(--third-card-bg);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+  button {
+    color: var(--third-card-bg);
+
+    &:hover {
+      color: var(--page-bg)
+    }
   }
 }

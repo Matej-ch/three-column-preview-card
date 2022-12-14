@@ -2,26 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
-
-  .column {
-    background-color: var(--first-card-bg);
-    padding: 3rem;
-  }
-  
-  .column:first-child {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-  }
-
-  .column:nth-child(2n) {
-    background-color: var(--second-card-bg);
-  }
-
-  .column:nth-child(3n) {
-    background-color: var(--third-card-bg);
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-  }
 }
 
 @media screen and (max-width: 600px) {
