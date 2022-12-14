@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Matej-ch/nft-card-component)
-- Live Site URL: [GH pages](https://matej-ch.github.io/nft-card-component/)
+- Solution URL: [GitHub](https://github.com/Matej-ch/three-column-preview-card)
+- Live Site URL: [GH pages](https://matej-ch.github.io/three-column-preview-card/)
 
 ## My process
 
