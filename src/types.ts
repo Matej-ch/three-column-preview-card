@@ -1,4 +1,5 @@
 export interface column {
     heading: string,
-    text: string
+    text: string,
+    img: string
 }

@@ -1,11 +1,12 @@
 import {column} from "./types";
 import './ColumnComponent.scss'
 
-function ColumnComponent(column: column) {
+function ColumnComponent({column}: { column: column }) {
 
     return (<div className="column">
-        <div>{column.heading}</div>
-        <div>{column.text}</div>
+        <img src={column.img} alt=""/>
+        <h1>{column.heading}</h1>
+        <p>{column.text}</p>
     </div>)
 }
 

@@ -1,3 +1,16 @@
 .column {
-  
+  background-color: white;
+
+  h1 {
+    padding: 2rem 0;
+    text-transform: uppercase;
+    color: var(--heading-color);
+  }
+
+  p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: var(--paragraphs-size);
+    color: var(--paragraphs-color);
+    font-weight: 400;
+  }
 }
